@@ -1,5 +1,10 @@
 # VitaTweaks
 
+> **Fork note:** NoLockScreen modified to only suppress the lock screen 
+> on resume from sleep, not on cold boot. See original repo for the 
+> unmodified version.
+> This was done to avoid a conflict with AutoBoot
+
 A collection of small tweaks for the PS Vita
 
 ## 1. NoLockScreen
