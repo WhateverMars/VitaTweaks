@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 
 if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   if(DEFINED ENV{VITASDK})
@@ -19,7 +19,7 @@ add_executable(nolockscreen
 )
 
 target_link_libraries(nolockscreen
-  taiHEN_stub
+  taihen_stub
 )
 
 vita_create_self(nolockscreen.suprx nolockscreen CONFIG exports.yml UNSAFE)
